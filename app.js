@@ -2,7 +2,7 @@ const express = require("express")
 
 const app = express()
 var lights = new Map()
-lights["05-02-2025"] = {
+lights["5-2-2025"] = {
 	"message": {
 		"date":{
 			"data": "хуй",
@@ -28,7 +28,7 @@ lights["05-02-2025"] = {
 	}
 }
 
-lights["02-02-2025"] = {
+lights["2-2-2025"] = {
 	"message": {
   "date":{
    "data": "хуй",
@@ -63,7 +63,7 @@ app.get("/date", function(req, res) {
 		return
 	}
 	let z = new Date(req.query.year, req.query.month - 1, req.query.day)
-	res.send(lights[z.getTime()])
+	res.send(lights[req.query.day + '-' + req.query.month + '-' + req.query.year])
 	console.log(req.query.id)
 });
 
