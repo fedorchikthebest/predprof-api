@@ -28,6 +28,32 @@ lights["05-02-2025"] = {
 	}
 }
 
+lights["02-02-2025"] = {
+	"message": {
+  "date":{
+   "data": "хуй",
+   "description": "ХУЙ"
+  },
+  "rooms_count": {
+   "data": 4
+  },
+  "windows_for_room": {
+   "data": [
+    2, 2, 1
+   ]
+  },
+  "windows": {
+   "data":{
+    "floor_1":[
+     false, false, false, false
+    ],
+    "floor_2": [false, false, false, true],
+    "floor_3": [true, true, true, true]
+   }
+  }
+ }
+}
+
 
 app.get("/date", function(req, res) {
 	let ans = new Map()
