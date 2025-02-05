@@ -1,0 +1,22 @@
+{
+  "name": "predprof-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fedorchikthebest/predprof-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedorchikthebest/predprof-api/issues"
+  },
+  "homepage": "https://github.com/fedorchikthebest/predprof-api#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
