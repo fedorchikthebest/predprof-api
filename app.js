@@ -36,7 +36,8 @@ app.get("/date", function(req, res) {
 		res.send(f)
 		return
 	}
-	res.send(req.query.id)
+	let z = new Date(req.query.year, req.query.month - 1, req.query.day)
+	res.send(lights[z.getTime()])
 	console.log(req.query.id)
 });
 
