@@ -2,7 +2,7 @@ const express = require("express")
 
 const app = express()
 var lights = new Map()
-lights[1738702800000] = {
+lights["05-02-2025"] = {
 	"message": {
 		"date":{
 			"data": "хуй",
