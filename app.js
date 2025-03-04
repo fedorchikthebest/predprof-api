@@ -19,10 +19,10 @@ lights["5-2-2025"] = {
 		"windows": {
 			"data":{
 				"floor_1":[
-					true, false, true, false
+					true, false
 				],
-				"floor_2": [true, true, true, true],
-				"floor_3": [false, false, false, false]
+				"floor_2": [true],
+				"floor_3": [false]
 			}
 		}
 	}
@@ -39,7 +39,7 @@ lights["2-2-2025"] = {
   },
   "windows_for_room": {
    "data": [
-    2, 2, 1
+    4, 4, 4
    ]
   },
   "windows": {
@@ -66,7 +66,7 @@ lights["4-3-2025"] = {
   },
   "windows_for_room": {
    "data": [
-    2, 2, 1
+    4, 4, 4
    ]
   },
   "windows": {
